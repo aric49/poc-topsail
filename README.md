@@ -44,7 +44,7 @@ sudo chmod 755 /usr/bin/hyperkube
 ```
 sudo mkdir -p /opt/cni/bin
 wget https://github.com/containernetworking/cni/releases/download/v0.6.0/cni-amd64-v0.6.0.tgz
-https://github.com/containernetworking/plugins/releases/download/v0.6.0/cni-plugins-amd64-v0.6.0.tgz
+wget https://github.com/containernetworking/plugins/releases/download/v0.6.0/cni-plugins-amd64-v0.6.0.tgz
 sudo tar xvf cni-amd64-v0.6.0.tgz -C /opt/cni/bin/
 sudo tar xvf cni-plugins-amd64-v0.6.0.tgz -C /opt/cni/bin/
 ```
